@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 0.5s;
 }
 
 :root {
@@ -79,6 +78,7 @@ img {
     color: white;
     font-size: 16px;
     text-transform: uppercase;
+    transition-duration: 0.5s;
 }
 
 .btn:hover {
@@ -226,6 +226,10 @@ h1.title {
     overflow: hidden;
 }
 
+.section-04 img {
+    transition-duration: 0.5s;
+}
+
 .section-04 img:hover {
     transform: scale(1.1);
 }
@@ -263,10 +267,10 @@ figcaption .title {
     font-size: 22px;
     line-height: 50px;
     color: #fff;
+    transition-duration: 0.5s;
 }
 
-.scroll-up-page:hover,
-.scroll-up-page:active {
+.scroll-up-page:hover {
     background-color: var(--primary-color);
 }
 
