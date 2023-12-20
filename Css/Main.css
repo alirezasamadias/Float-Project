@@ -23,16 +23,16 @@ html {
     cursor: context-menu;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 11px;
     background-color: #f1f1f1;
 }
 
-body::-webkit-scrollbar-thumb  {
+::-webkit-scrollbar-thumb  {
     background-color: var(--primary-color);
 }
 
-body::-webkit-scrollbar-button {
+::-webkit-scrollbar-button {
     background-color: var(--secondary-color);
 }
 
@@ -45,7 +45,7 @@ a {
 i {
     display: inline-block;
     text-transform: uppercase;
-    font: normal lighter 42px sans-serif !important;
+    font: normal lighter 42px sans-serif;
     color: var(--primary-color);
 }
 
